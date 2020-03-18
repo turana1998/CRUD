@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Martel:200,300,400,600,700,800,900&display=swap');
+    .header{
+      margin-top: 20px;
+      height:400px;
+      background: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)),
+				url('../db/1.jfif');
+      background-size: cover;
+     
+    }
+    .header h1{
+        text-align: center;
+        color: white;
+        transform: translate(0%, 200%);
+    }
+    .body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .body p{
+        font: 20px 'Martel', serif;
+    }
+    .arrow{
+        text-align: center;
+        color: black;
+        margin-top: 25px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+
+      body{
+        background-color:#bb99ff;
+      }
+      .edit{
+        cursor:pointer;
+       
+        
+      }
+      .delete{
+        color:#ff3333;
+        cursor:pointer;
+        text-align:center;
+      }
+      .text-center{
+        text-align:center;
+
+      }
+      .right{
+        float:right;
+      }
+      table th{
+        text-align:center;
+        background-color:#696969;
+        border:1px solid  #3d3d29;
+
+      }
+      table td{
+        border:1px solid  #3d3d29;
+        background-color: white;
+        text-align:center;
+      }
+      table td:hover{
+        background-color: #b8b894;
+        color:white;
+      }
+
+      
